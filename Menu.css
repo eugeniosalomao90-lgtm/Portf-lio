@@ -1,0 +1,107 @@
+*{
+  margin:0;
+  padding:0;
+  transform-box:border-box;
+  
+  
+}
+
+.interface{
+  max-width:1300px;
+  margin:0 auto;
+  
+}
+header{
+  width: 100%;
+  background: royalblue;
+}
+.top{
+  background: white;
+  padding: 20px 4%;
+}
+.logo img{
+  max-width: 159px;
+}
+.logo{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+}
+.redes_socias button{
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 50px;
+  background:;
+  border:1px solid black;
+  cursor:point;
+  
+}
+.drop1 {
+  background: royalblue;
+}
+
+.drp2 nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.drp2 nav ul li {
+  position: relative;
+}
+
+.drp2 nav ul li a.a {
+  display: block;
+  padding: 20px 30px;
+  text-decoration: none;
+  color: #fff;
+  transition: 3s;
+}
+
+.drp2 nav ul li a.a:hover {
+  background: #444;
+}
+
+/* Dropdown */
+.menu .down {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #444;
+  min-width: 180px;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.menu .down a {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: 0.2s;
+}
+
+.menu .down a:hover {
+  background: #555;
+}
+
+.menu:hover .down {
+  display: flex;
+}
+
+.logo8:hover {
+  background:white;
+  
+}
+
+
+
+
+
+
+
